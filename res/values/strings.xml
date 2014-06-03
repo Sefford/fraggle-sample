@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fraggle Sample</string>
+    <string name="fragment_tag">Fragment %d</string>
+    <string name="fragment_button_normal">Create new Fragment</string>
+    <string name="fragment_button_single">Is Single Instance</string>
+    <string name="fragment_button_entry">Is Entry Fragment</string>
+    <string name="fragment_button_back">Make it return to first</string>
+    <string name="fragment_button_custom">Showing a Toast on Back</string>
+    <string name="fragment_toast">Example of custom action for a Fragment</string>
+</resources>

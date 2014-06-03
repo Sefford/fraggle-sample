@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center">
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tv_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="@string/fragment_tag" />
+
+    <CheckedTextView
+        android:id="@+id/cb_single"
+        style="@style/CheckBoxStyle"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:gravity="center"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:text="@string/fragment_button_single" />
+
+    <CheckedTextView
+        android:id="@+id/cb_entry"
+        style="@style/CheckBoxStyle"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:gravity="center"
+        android:text="@string/fragment_button_entry" />
+
+    <CheckedTextView
+        android:id="@+id/cb_back"
+        style="@style/CheckBoxStyle"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:gravity="center"
+        android:text="@string/fragment_button_back" />
+
+    <CheckedTextView
+        android:id="@+id/cb_custom"
+        style="@style/CheckBoxStyle"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:gravity="center"
+        android:text="@string/fragment_button_custom" />
+
+    <Button
+        android:id="@+id/bt_create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="@string/fragment_button_normal" />
+
+    <ImageView
+        android:id="@+id/iv_color"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"/>
+
+</LinearLayout>
